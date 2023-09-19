@@ -1,0 +1,25 @@
+{
+    "name": "com.configreality.creal",
+    "version": "0.0.1",
+    "displayName": "CReal Unity SDK",
+    "description": "CReal Unity SDK",
+    "unity": "2022.3",
+    "keywords": [
+        "Unity",
+        "CReal",
+        "Virtual Spaces",
+        "Metaverse"
+    ],
+    "homepage": "https://www.configreality.com/",
+    "documentationUrl": "https://configreality.yuque.com/dgptu6/gsgxu5/nwpa0xrkkuwcf0g7/",
+    "dependencies": {
+        "com.unity.cinemachine": "2.9.5"
+    },
+    "enableLockFile": true,
+    "resolutionStrategy": "highest",
+    "author": {
+        "name": "ConfigReality",
+        "email": "info@configreality.com",
+        "url": "https://www.configreality.com/"
+    }
+}
