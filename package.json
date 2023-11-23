@@ -1,6 +1,6 @@
 {
     "name": "com.configreality.creal",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "displayName": "CReal Unity SDK",
     "description": "CReal Unity SDK",
     "unity": "2022.3",
@@ -13,7 +13,7 @@
     "homepage": "https://www.configreality.com/",
     "documentationUrl": "https://configreality.yuque.com/dgptu6/gsgxu5/nwpa0xrkkuwcf0g7/",
     "dependencies": {
-        "com.unity.cinemachine": "2.9.5"
+        "com.unity.cinemachine": "2.9.7"
     },
     "enableLockFile": true,
     "resolutionStrategy": "highest",
