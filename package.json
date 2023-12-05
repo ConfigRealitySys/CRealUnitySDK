@@ -1,6 +1,6 @@
 {
     "name": "com.configreality.creal",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "displayName": "CReal Unity SDK",
     "description": "CReal Unity SDK",
     "unity": "2022.3",
