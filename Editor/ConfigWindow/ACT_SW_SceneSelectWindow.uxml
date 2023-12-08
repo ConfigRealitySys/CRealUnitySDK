@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.configreality.creal/Editor/ConfigWindow/CRealSDKConfigWindowStyles.uss?fileID=7433441132597879392&amp;guid=82dc723ea74faf54bb758327a562347e&amp;type=3#CRealSDKConfigWindowStyles" />
+    <ui:VisualElement name="VisualElement_LogWindows" class="block_white block_base block_red" style="display: flex; color: rgb(255, 255, 255); background-color: rgb(77, 77, 77); width: 100%;">
+        <ui:Label text="Testing Configuration" display-tooltip-when-elided="true" name="Label_Header" class="blockTitle" />
+        <ui:Label text="Select a Scene to test for below" display-tooltip-when-elided="true" name="Label_Content" class="blockText" />
+        <ui:Label display-tooltip-when-elided="true" name="Label_Content" enable-rich-text="false" class="blockText" style="font-size: 3px;" />
+        <uie:PropertyField label="Scene" binding-path="m_IssueScene" name="IssueScene" style="font-size: 16px; height: auto; width: auto; -unity-slice-left: -3;" />
+        <ui:DropdownField label="Active Scene" index="-1" name="DropdownField_SceneList" style="display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

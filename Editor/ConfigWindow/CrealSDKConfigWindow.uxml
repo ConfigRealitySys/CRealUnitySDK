@@ -100,9 +100,9 @@
                     <ui:Label tabindex="-1" text="You have published this space within 15 minutes, the processing has not been completed. &#10;Please wait patiently. The next publishing time is expected to be {0}" parse-escape-sequences="true" display-tooltip-when-elided="true" name="publishedTips" style="left: auto; align-self: flex-end; align-items: flex-end; -unity-text-align: upper-right; height: 33px; top: 12px; font-size: 10px; display: none;" />
                 </ui:VisualElement>
             </ui:VisualElement>
-            <ui:VisualElement name="utilities" style="align-items: center; display: none;">
-                <ui:VisualElement name="OptimizationBlock" class="block_white block_base" style="bottom: auto; height: 128px;">
-                    <ui:Label text="Coming soon..." display-tooltip-when-elided="true" name="Header" class="blockTitle" />
+            <ui:VisualElement name="utilities" style="align-items: center; display: flex;">
+                <ui:VisualElement name="OptimizationBlock" class="block_white block_base" style="bottom: auto; height: 430px;">
+                    <ui:Label text="Coming soon..." display-tooltip-when-elided="true" name="Header" class="blockTitle" style="display: none;" />
                 </ui:VisualElement>
             </ui:VisualElement>
             <ui:VisualElement name="help" style="align-items: center; display: none;">

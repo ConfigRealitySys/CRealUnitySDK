@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.configreality.creal/Editor/ConfigWindow/CRealSDKConfigWindowStyles.uss?fileID=7433441132597879392&amp;guid=82dc723ea74faf54bb758327a562347e&amp;type=3#CRealSDKConfigWindowStyles" />
+    <ui:VisualElement name="VisualElement_LogWindows" class="block_white block_base block_red" style="display: flex; color: rgb(67, 255, 117); background-color: rgb(55, 79, 62);">
+        <ui:Label text="Not Logged In" display-tooltip-when-elided="true" name="Label_Header" class="blockTitle" />
+        <ui:Label text="Fllow the steps below to link your CReal acount with Unity." display-tooltip-when-elided="true" name="Label_Content" class="blockText" />
+        <ui:Button text="Get Token" display-tooltip-when-elided="true" name="Button_Start" class="blockButton blockButton_small" style="opacity: 1; width: 139px;" />
+    </ui:VisualElement>
+</ui:UXML>

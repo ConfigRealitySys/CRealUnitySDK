@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.configreality.creal/Editor/ConfigWindow/CRealSDKConfigWindowStyles.uss?fileID=7433441132597879392&amp;guid=82dc723ea74faf54bb758327a562347e&amp;type=3#CRealSDKConfigWindowStyles" />
+    <ui:VisualElement name="VisualElement_BorderlessWindow" class="block_white" style="align-items: center; justify-content: center; align-self: center; width: 560px;">
+        <ui:ScrollView name="ScrollView_Main" style="height: 420px; width: 550px;" />
+    </ui:VisualElement>
+</ui:UXML>
